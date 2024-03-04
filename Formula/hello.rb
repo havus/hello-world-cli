@@ -6,7 +6,7 @@ class Hello < Formula
   license "MIT"
 
   def install
-    bin.install "dist/hello-cli"
+    bin.install "dist/hello-macos"
   end
 
   test do
