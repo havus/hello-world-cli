@@ -10,7 +10,7 @@ class Hello < Formula
   end
 
   test do
-    assert_equal "Hello World!", shell_output("#{bin}/hello-cli").strip
-    assert_equal "Hello John!", shell_output("#{bin}/hello-cli John").strip
+    assert_equal "Hello World!", shell_output("#{bin}/hello-macos").strip
+    assert_equal "Hello John!", shell_output("#{bin}/hello-macos John").strip
   end
 end
